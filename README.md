@@ -1,3 +1,3 @@
 # Sheth-Ansuya-Enterprises
 
-## https://miteshsheth25.github.io/Sheth-Ansuya-Enterprises/index.html
+## https://miteshsheth25.github.io/Sheth-Ansuya-Enterprises/

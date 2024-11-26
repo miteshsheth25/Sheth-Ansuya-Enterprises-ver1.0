@@ -1,0 +1,76 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* header section start*/
+
+.header{width: 1200px;
+    height: 100px;
+    background-color: #f1b36d;
+    margin: auto;
+    padding-left: 5px;
+    align-content: center;
+    }
+
+.logo { margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px; }
+
+.heading{color: black;
+         padding-left: 380px; 
+         align-content: center;
+         }
+
+.menu{  list-style: none; }
+
+.item_menu{ border: 1px solid #000;
+        border-radius: 30px;
+        float: left;
+        margin-left: -10px;
+        margin-right: 25px;
+        margin-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        text-decoration: none;
+        color: black ;
+    }
+
+/* header section end*/
+
+/* center section start */
+
+.center { width: 1200px;
+    height: 60px;
+    margin: auto;
+  }
+
+.c_h3{
+    font-size: 25px;
+    text-align: center;
+    color: black;}
+
+/* center section start */
+
+/*Procut section start */
+
+.aligning_details{/*border: 1px solid black;*/ 
+                    margin: auto;
+                    align-content: center;
+    }
+
+.product_col_align{border: 2px solid rgba(7, 83, 175, 0.948);
+                   border-radius: 15px;
+                   text-align: center;
+                   width: 400px;
+   }
+
+.product_description{
+                     width: 300px;
+                     margin: auto;
+                     text-align: left;
+                    }
+
+/*Procut section end */

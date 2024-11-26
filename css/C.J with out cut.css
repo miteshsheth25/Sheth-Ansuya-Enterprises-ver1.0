@@ -1,8 +1,17 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
+/* outter frame start */
+
+.outter_frame { width: 1200px;
+    height: auto;
+    margin: auto;            
+    }
+
+/* outter frame end */
+
 /* header section start*/
 
-.header{width: 1200px;
+.header{width: 1195px;
     height: 100px;
     background-color: #f1b36d;
     margin: auto;
@@ -13,6 +22,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .logo { margin-top: 5px;
         margin-left: 5px;
         margin-right: 5px; }
+
+.company_name{ color: #33d4ff;
+            margin-top: 30px;
+            margin: 10px; 
+            font-family: Arial, Helvetica, sans-serif;
+            }
 
 .heading{color: black;
          padding-left: 420px; 

@@ -1,12 +1,18 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 
-.outter_frame { width: 1200px;
-                height: 700px;
-                /*border: solid 1px black;*/
-                margin: auto;
-    }
+/* outter frame start */
 
-.header{width: 1190px;
+.outter_frame {width: 1200px;
+              height: auto;
+              margin: auto;
+              border: 1px solid #000;
+              }
+   
+/* outter frame end */
+
+/* header section start */
+
+.header{width: 1195px;
         height: 100px;
         background-color: #f1b36d;
         margin: auto;
@@ -43,27 +49,32 @@ body {font-family: Arial, Helvetica, sans-serif;}
             color: black ;
         }
 
-/* Box with Product Image */
+/* header section end */
+
+/* Box with Product Image start */
+
 .product_box { width: 403px;
     height: 500px;
     border: solid 1px; color:rgb(3, 18, 32);
     border-radius: 5%;
-    margin-left: 10px;
-    margin-top: 40px;          
+    margin-left: 15px;
+    margin-top: 35px;
     float: left;
     }
 
 .product_images { border-radius: 5%;}
 
-/* About Box  and its elements*/
+/* Box with Product Image end */
+
+/* About Box  and its elements start*/
 .About_container { width: 750px;
         height: 540px;
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 430px;
         border: solid 1px black;
         border-radius: 6px;
         background-color: #e0ec9c;
-        float: left;
+        
         }
 
 .Heading_Text_1 { color: black;          
@@ -80,3 +91,5 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .text-indent {  text-indent: 8px;
      line-height: 1.5;
      }  
+
+/* About Box  and its elements end*/

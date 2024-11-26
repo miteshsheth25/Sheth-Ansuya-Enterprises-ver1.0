@@ -2,7 +2,12 @@
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
-.header{width: 1200px;
+.outter_frame { width: 1200px;
+        height: auto;        
+        margin: auto;            
+        }
+        
+.header{width: 1195px;
         height: 100px;
         background-color: #f1b36d;
         margin: auto;
@@ -64,7 +69,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* center section start*/
 
-.center { width: 1200px;
+.center { width: 1195px;
           height: 400px;
           margin: auto;
           background-image: url(../images/center_section_bg.png);
@@ -144,8 +149,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
         color: black;
         font-size: 14px;
         position: absolute;
-        margin-top: -100px;
-        margin-left: 110px;
+        margin-top: -170px;
+        margin-left: 100px;
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 5px;
@@ -153,8 +158,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
         transform: translate(-50%, -50%);
         opacity: 0;
         cursor: pointer;
+        
       }
       
+
+
 .product:hover .image{opacity: 0.3;}
 
 .product:hover .text{opacity: 0.8;}

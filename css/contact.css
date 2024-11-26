@@ -1,11 +1,17 @@
-/* Outter Box and its components */
+
 body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Outter frame start */
 
 .outter_frame { width: 1200px;
     height: 800px;
-    /*border: solid 1px black;*/
+    border: solid 1px black;
     margin: auto;
     }
+
+/* Outter frame end */
+
+/* header section start */
 
 .header{width: 1195px;
         height: 100px;
@@ -44,18 +50,23 @@ body {font-family: Arial, Helvetica, sans-serif;}
             color: black ;
         }
 
-/* Box for Map*/
+/* header section end */
+
+/* Box for Map start*/
+
 .Map_box{ width: 400px;
-height: 610px;
-/*border: solid 1px; color:rgb(3, 18, 32);*/
-border-radius: 5%;
-margin-left: 10px;
-margin-top: 45px;          
-float: left;
+          height: 610px;
+          /*border: solid 1px; color:rgb(3, 18, 32);*/
+          border-radius: 5%;
+          margin-left: 10px;
+          margin-top: 45px;          
+          float: left;
+          }
 
-}
+/* Box for Map end*/
 
-/* Contact Box and the title */
+/* Contact Box and the title start */
+
 .Contact_box {width: 745px;
   height: 610px;
   background-color: lightgreen;
@@ -72,7 +83,10 @@ float: left;
       margin-top: 0
     }
 
-/* Detail Box and its components*/
+/* Contact Box and the title end */
+
+/* Detail Box and its components start */
+
 .detailbox {  display: flex;
   padding-top: 20px;
   padding-left:10px;
@@ -116,7 +130,10 @@ float: left;
           padding-left: 5px;
           padding-top: 5px;  }
 
-/* Contact Info Box with details */
+/* Detail Box and its components end */
+
+/* Contact Info Box with details start */
+
 .contact-info { width: 320px;
     height: 200px;
     margin-left: 20px;
@@ -135,3 +152,5 @@ float: left;
   margin-top: 3px;
   margin-left: 4px;
   }
+
+  /* Contact Info Box with details end */
